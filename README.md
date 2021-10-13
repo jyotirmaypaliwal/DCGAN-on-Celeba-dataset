@@ -16,5 +16,6 @@ Link for the data - https://www.kaggle.com/jessicali9530/celeba-dataset
 
 ## Results
 <img width="391" alt="Screenshot 2021-10-13 223746" src="https://user-images.githubusercontent.com/27720480/137180512-f7871f8a-6fa6-4fbe-83df-219ae68da687.png">
+
 #### As you can see above, I got okay results which can be improved by increasing the number of epochs and also by increasing the data size. 
 #### One thing to note is that GANs are highly sensitive to the hyperparameters. 
