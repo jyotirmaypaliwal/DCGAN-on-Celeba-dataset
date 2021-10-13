@@ -1,2 +1,2 @@
 # DCGAN-on-Celeba-dataset
-DCGAN on Celeba dataset using Pytorch
+Here I applied Deep Convolutional Generative Adversarial Networks (DCGANs) on the famous Celeba dataset using Pytorch.
