@@ -10,4 +10,9 @@ Link for the data - https://www.kaggle.com/jessicali9530/celeba-dataset
 #### The above pic is of the architecture of Generator. Discrimiator has the same layout but just opposite flow. The job of Generator is to take in random noise and turn it to something like real data while the job of Discriminator is to taken in data and give the probability of it being real. 
 
 ## Training 
-#### For training our DCGAN, we took in 64*64*3 real images from Celeba dataset and 64*64*3 fake images from the generator and fed them to the discriminator. We used BCELoss or Binary Cross Entropy Loss as it's very similar to the loss mentioned in the paper and works just like it after doing some mods to the target. We used Adam for training with a learning rate of 2e-4. We also did some modification to the hyperparameters in accordance to the paper. 
+#### For training our DCGAN, we took in 64*64*3 real images from Celeba dataset and 64*64*3 fake images from the generator and fed them to the discriminator. We used BCELoss or Binary Cross Entropy Loss as it's very similar to the loss mentioned in the paper and works just like it after doing some mods to the target. We used Adam as our optimizer for training with a learning rate of 2e-4. We also did some modification to the hyperparameters in accordance to the paper. 
+
+### I trained for a total of 10 epocs on 60,000 images. Due to high computational cost, I was not able to train on all the images of Celeba dataset. The training took me around an hour and gave me okay resuls which are shown below. 
+
+
+<img width="391" alt="Screenshot 2021-10-13 223746" src="https://user-images.githubusercontent.com/27720480/137180512-f7871f8a-6fa6-4fbe-83df-219ae68da687.png">
