@@ -23,3 +23,5 @@ Link for the data - https://www.kaggle.com/jessicali9530/celeba-dataset
 
 ## Note
  In the jupyter notebook, I have done a better explaination of the training process and in the Python file, I have only given my code so that anyone can use it in their project.
+
+Feel free to contact me if you have any question regarding my project. 
