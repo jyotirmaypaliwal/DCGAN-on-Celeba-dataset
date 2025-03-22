@@ -1,6 +1,6 @@
 # DCGAN using Pytorch on Celeba dataset 
 # Paper reference - https://arxiv.org/abs/1511.06434
-# For more visualization, please see my jupyter notebook.
+# For more visualization, please see my Jupyter notebook.
 
 # Data processing
 import numpy as np
